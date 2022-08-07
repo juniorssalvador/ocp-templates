@@ -1,0 +1,14 @@
+###################### Primeira chamada ######################
+
+x509.subjectdn| ^.*UID=97e90169-9543-4ec5-b450-524a2d4756b4.*$
+three_scale_application_id| 974
+tls_client_auth_subject_dn| UID=97e90169-9543-4ec5-b450-524a2d4756b4,1.3.6.1.4.1.311.60.2.1.3=#1302554b,2.5.4.15=#130f427573696e65737320456e74697479,2.5.4.5=#130e3433313432363636303030313937,CN=https://www.domainone.com.br,OU=74e929d9-33b6-4d85-8ba7-c146c867a817,O=Open Banking Brasil,L=London,ST=SP,C=BR
+
+
+
+###################### Segunda chamada ######################
+three_scale_account_id| 16
+request.object.signature.alg| PS256
+x509.subjectdn| UID=97e90169-9543-4ec5-b450-524a2d4756b4,1.3.6.1.4.1.311.60.2.1.3=#1302554b,2.5.4.15=#130f427573696e65737320456e74697479,2.5.4.5=#130e3433313432363636303030313937,CN=https://domaintwo.com.br,OU=74e929d9-33b6-4d85-8ba7-c146c867a817,O=Open Banking Brasil,L=London,ST=SP,C=BR
+three_scale_application_id| 974
+tls_client_auth_subject_dn| UID=97e90169-9543-4ec5-b450-524a2d4756b4,1.3.6.1.4.1.311.60.2.1.3=#1302554b,2.5.4.15=#130f427573696e65737320456e74697479,2.5.4.5=#130e3433313432363636303030313937,CN=https://domaintwo.com.br,OU=74e929d9-33b6-4d85-8ba7-c146c867a817,O=Open Banking Brasil,L=London,ST=SP,C=BR
